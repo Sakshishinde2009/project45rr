@@ -146,9 +146,9 @@ class Game{
 
      gameOver() {
         //     fill the white color
-        textSize(40)
+                    textSize(40)
                     fill("white")
-                    text("GAME OVER",200,200)
+                    text("GAME OVER",displayWidth/2 - 400,displayHeight/2 - 200)
         //  print the gameover message
     swal({
         title: `Aweasome`,
