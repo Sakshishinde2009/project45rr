@@ -148,16 +148,10 @@ class Game{
         //     fill the white color
                     textSize(40)
                     fill("white")
+          //  print the gameover message
                     text("GAME OVER",displayWidth/2 - 400,displayHeight/2 - 200)
-        //  print the gameover message
-    swal({
-        title: `Aweasome`,
-        text: "You reached the finish line successfully",
-        imageUrl:
-            "https://images.app.goo.gl/eNZap9h5ukQpXyYy7",
-        imageSize: "100x100",
-        confirmButtonText: "Ok"
-        });
+       
+   
     }
             
 
